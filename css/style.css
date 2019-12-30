@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Nanum+Gothic:400,700&display=swap');
+
+/* mediaquery 
+/* 화면 너비 ~550px 
+@media (max-width: 550px) {}
+*/
+
+/* full 이미지 */
+.fullbx .imgbx img {
+  vertical-align: middle;
+}
+
+.fullbx .dscbx {
+  background-color: rgb(38, 29, 21);
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0 50px;
+}
+
+.fullbx .dscbx .dscbx_in {
+  width: 1000px;
+  margin: 0 auto;
+  word-break: keep-all;
+  color: #eaeaea;
+  text-align: center;
+}
+
+.fullbx .dscbx h2 {
+  font-size: 47px;
+  margin-bottom: 10px;
+}
+
+.fullbx .dscbx h3 {
+  text-transform: uppercase;
+  font-size: 27px;
+  margin-bottom: 15px;
+}
+
+.fullbx .dscbx p {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.fullbx .dscbx u {
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* slide_desbx */
+#slide_wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.slide_dscbx {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide_dscbx h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.slide_dscbx .slide_tit {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.slide_dscbx p {
+  word-break: keep-all;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+/* slide_image */
+.slide_wrap {
+  position: relative;
+}
+
+.slide_show {
+  position: relative;
+  height: 647px;
+  overflow: hidden;
+}
+
+.slide_show .slide_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slide_show .slide_img .slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* slide_btn */
+.slide_btn a {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 25px;
+  height: 50px;
+  color: white;
+  text-indent: -9999px;
+}
+
+.slide_btn a.prev {
+
+  background: url(http://oudition84.dothome.co.kr/slide/slide-4/img/prev.png) no-repeat;
+  left: -70px;
+}
+
+.slide_btn a.next {
+
+  background: url(http://oudition84.dothome.co.kr/slide/slide-4/img/next.png) no-repeat;
+  right: -70px;
+}
+
+/* slide_dot */
+.slide_dot {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slide_dot a {
+  width: 15px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  border-radius: 50%;
+  margin: 20px 6px 0;
+}
+
+.slide_dot a.active {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* slide_count */
+/*.slide_count {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: white;
+}*/
+
+/* 페이지 */
+.page {
+  width: 100%;
+  margin: auto;
+}
+
+.page img {}
+
+/* product box */
+#product_box {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#product_box .prd_bx {
+  float: left;
+}
+
+/* bx_area */
+.prd_bx .bx_area {
+  overflow: hidden;
+  margin: 0 18px 18px 0;
+  border: 1px solid #d4d4d4;
+}
+
+.prd_bx .img_bx {
+  width: 200px;
+  padding: 15px;
+}
+
+.prd_bx .img_bx img {
+  width: 100%;
+}
+
+.prd_bx .txt_area {
+  display: inline-block;
+  letter-spacing: 0px;
+  padding: 0 15px 15px;
+}
+
+.prd_bx .txt_area .txt {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  color: #303033;
+}
+
+.prd_bx .txt_area h3 {
+  font-size: 15px;
+  color: #a0a0a0;
+  margin-bottom: 8px;
+}
+
+.prd_bx .txt_area .titin {
+  margin: 20px 0 6px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #4c4c4c;
+}
+
+.prd_bx .price_bx .price {
+  text-decoration: line-through;
+  color: #b2b2b2;
+  font-size: 14px;
+  font-weight: 500;
+  bottom: 0;
+}
+
+.prd_bx .price_bx .sale_price {
+  font-weight: 600;
+  color: #ff4800;
+}
+
+/* gif 타이틀*/
+#rolling {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tit_rolling h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tit_rolling .tit {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.tit_rolling p {
+  word-break: keep-all;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+/*  gif 이미지 */
+#gif_bx {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#gif_bx .gifin {
+  width: 100%;
+  overflow: hidden;
+}
+
+#gif_bx .gif_area {
+  float: left;
+  width: 480px;
+  margin: 0 15px 0 0;
+}
+
+.gif_area img {
+  width: 100%;
+}
+
+.motion {
+  text-align: center;
+}
+
+.lookbook {
+  width: 1920px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+}
+
+.lookbook .container {}
+
+.lookbook .container h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.lookbook .container img {
+  width: 100%;
+}
